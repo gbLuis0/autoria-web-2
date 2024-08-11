@@ -1,0 +1,42 @@
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.barra-header *{
+    color:#535353 ;
+}
+
+.main-img{
+    background-image: url(img/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    /* width: 100%; */
+}
+
+.card{
+    border: 0;
+    flex-grow: 1;
+}
+
+.card-group{
+    max-width: 70%;
+    gap: 15px;
+}
+
+.preco{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.footer h2{
+    font-family: serif;
+    font-weight: bold;
+}
+
+.footer li{
+    margin-bottom: 12px;
+    color: #535353;
+}
